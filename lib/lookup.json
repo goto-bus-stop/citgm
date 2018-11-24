@@ -505,5 +505,10 @@
     "maintainers": ["mcollina", "BridgeAR"],
     "prefix": "v",
     "flaky": true
+  },
+  "got": {
+    "maintainers": ["sindresorhus"],
+    "prefix": "v",
+    "skip": ["<8", ">=11"]
   }
 }
